@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
+import MetaPixelRouter from "@/components/MetaPixelRouter";
 import "./globals.css";
 
 // Viewport configuration para Vestri
@@ -73,6 +74,8 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
+        {/* Router listener para disparar PageView en navegaciones del lado del cliente */}
+        <MetaPixelRouter />
         {children}
       </body>
     </html>
