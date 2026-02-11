@@ -45,20 +45,7 @@ vestri/
 └── package.json
 ```
 
-## 🔧 Configuración
 
-### Variables de Entorno
-
-Crear un archivo `.env.local` con:
-
-```env
-NEXT_PUBLIC_API_URL=https://api.caradvice.com.ar
-```
-
-Para desarrollo local:
-```env
-NEXT_PUBLIC_API_URL=http://localhost:4000
-```
 
 ## 📦 Dependencias Principales
 
@@ -69,17 +56,4 @@ NEXT_PUBLIC_API_URL=http://localhost:4000
 - **Tailwind CSS** - Estilos
 - **TypeScript** - Tipado estático
 
-## 🌐 Deploy
 
-### Vercel
-
-1. Conectar el repositorio a Vercel
-2. Configurar el dominio: `vestri.caradvice.com.ar`
-3. Agregar variable de entorno `NEXT_PUBLIC_API_URL`
-4. Deploy automático en cada push
-
-## 📝 Notas
-
-- El proyecto consume la misma API que Car Advice para el formulario de contacto
-- Meta Pixel ID: `1601853571182218`
-- Dominio: `vestri.caradvice.com.ar`
